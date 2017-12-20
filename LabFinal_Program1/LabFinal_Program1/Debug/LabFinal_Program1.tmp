@@ -1,0 +1,29 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATmega169P"</DEVICE>
+ <WORKING_DIR>c:\users\shail\Documents\Atmel Studio\7.0\LabFinal_Program1\LabFinal_Program1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>c:\users\shail\Documents\Atmel Studio\7.0\LabFinal_Program1\LabFinal_Program1\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m169pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>c:\users\shail\Documents\Atmel Studio\7.0\LabFinal_Program1\LabFinal_Program1\Debug\LabFinal_Program1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>LabFinal_Program1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>LabFinal_Program1.map</FILE>
+  <FILE>LabFinal_Program1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>c:\users\shail\Documents\Atmel Studio\7.0\LabFinal_Program1\LabFinal_Program1\main.asm</FILE><LINE>10</LINE></start>
+  <DATA1><FILE>c:\users\shail\Documents\Atmel Studio\7.0\LabFinal_Program1\LabFinal_Program1\main.asm</FILE><LINE>14</LINE></DATA1>
+  <here><FILE>c:\users\shail\Documents\Atmel Studio\7.0\LabFinal_Program1\LabFinal_Program1\main.asm</FILE><LINE>24</LINE></here>
+ </LABELS>
+</ASSEMBLER_INFO>

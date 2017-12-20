@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATmega169P"</DEVICE>
+ <WORKING_DIR>C:\Users\shail\Documents\Atmel Studio\7.0\Lab7-extracreditinlab\Lab7-extracreditinlab\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab7-extracreditinlab\Lab7-extracreditinlab\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m169pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab7-extracreditinlab\Lab7-extracreditinlab\Debug\Lab7-extracreditinlab.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Lab7-extracreditinlab.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Lab7-extracreditinlab.map</FILE>
+  <FILE>Lab7-extracreditinlab.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <data1><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab7-extracreditinlab\Lab7-extracreditinlab\main.asm</FILE><LINE>12</LINE></data1>
+  <data2><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab7-extracreditinlab\Lab7-extracreditinlab\main.asm</FILE><LINE>13</LINE></data2>
+  <data3><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab7-extracreditinlab\Lab7-extracreditinlab\main.asm</FILE><LINE>14</LINE></data3>
+  <data11><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab7-extracreditinlab\Lab7-extracreditinlab\main.asm</FILE><LINE>54</LINE></data11>
+  <data22><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab7-extracreditinlab\Lab7-extracreditinlab\main.asm</FILE><LINE>55</LINE></data22>
+  <data33><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab7-extracreditinlab\Lab7-extracreditinlab\main.asm</FILE><LINE>56</LINE></data33>
+ </LABELS>
+</ASSEMBLER_INFO>

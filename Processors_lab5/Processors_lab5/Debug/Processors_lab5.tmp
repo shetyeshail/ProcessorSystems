@@ -1,0 +1,31 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATmega169P"</DEVICE>
+ <WORKING_DIR>C:\Users\shail\Documents\Atmel Studio\7.0\Processors_lab5\Processors_lab5\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Processors_lab5\Processors_lab5\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m169pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Processors_lab5\Processors_lab5\Debug\Processors_lab5.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Processors_lab5.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Processors_lab5.map</FILE>
+  <FILE>Processors_lab5.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Processors_lab5\Processors_lab5\main.asm</FILE><LINE>86</LINE></start>
+  <delay_1s><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Processors_lab5\Processors_lab5\main.asm</FILE><LINE>153</LINE></delay_1s>
+  <L1><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Processors_lab5\Processors_lab5\main.asm</FILE><LINE>155</LINE></L1>
+  <L2><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Processors_lab5\Processors_lab5\main.asm</FILE><LINE>156</LINE></L2>
+  <L3><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Processors_lab5\Processors_lab5\main.asm</FILE><LINE>157</LINE></L3>
+ </LABELS>
+</ASSEMBLER_INFO>

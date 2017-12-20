@@ -1,0 +1,44 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATmega169P"</DEVICE>
+ <WORKING_DIR>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m169pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\Debug\lab8part2activity2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab8part2activity2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab8part2activity2.map</FILE>
+  <FILE>lab8part2activity2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <DATA1><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\main.asm</FILE><LINE>12</LINE></DATA1>
+  <DATA2><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\main.asm</FILE><LINE>13</LINE></DATA2>
+  <DATA3><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\main.asm</FILE><LINE>14</LINE></DATA3>
+  <INC_DATA1><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\main.asm</FILE><LINE>15</LINE></INC_DATA1>
+  <INC_DATA2><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\main.asm</FILE><LINE>16</LINE></INC_DATA2>
+  <INC_DATA3><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\main.asm</FILE><LINE>17</LINE></INC_DATA3>
+  <switch><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\main.asm</FILE><LINE>37</LINE></switch>
+  <switch0><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\main.asm</FILE><LINE>52</LINE></switch0>
+  <switch1><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\main.asm</FILE><LINE>63</LINE></switch1>
+  <switch2_Far><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\main.asm</FILE><LINE>49</LINE></switch2_Far>
+  <switch3_Far><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\main.asm</FILE><LINE>50</LINE></switch3_Far>
+  <switch2><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\main.asm</FILE><LINE>100</LINE></switch2>
+  <switch3><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\main.asm</FILE><LINE>137</LINE></switch3>
+  <storage><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\main.asm</FILE><LINE>148</LINE></storage>
+  <CheckCorrect><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\main.asm</FILE><LINE>164</LINE></CheckCorrect>
+  <FinStore><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\main.asm</FILE><LINE>161</LINE></FinStore>
+  <here><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\main.asm</FILE><LINE>165</LINE></here>
+  <return><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\lab8part2activity2\lab8part2activity2\main.asm</FILE><LINE>174</LINE></return>
+ </LABELS>
+</ASSEMBLER_INFO>

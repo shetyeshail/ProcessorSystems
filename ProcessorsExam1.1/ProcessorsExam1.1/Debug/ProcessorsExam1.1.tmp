@@ -1,0 +1,38 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATmega169P"</DEVICE>
+ <WORKING_DIR>C:\Users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.1\ProcessorsExam1.1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.1\ProcessorsExam1.1\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m169pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.1\ProcessorsExam1.1\Debug\ProcessorsExam1.1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>ProcessorsExam1.1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>ProcessorsExam1.1.map</FILE>
+  <FILE>ProcessorsExam1.1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.1\ProcessorsExam1.1\main.asm</FILE><LINE>18</LINE></start>
+  <repeat><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.1\ProcessorsExam1.1\main.asm</FILE><LINE>21</LINE></repeat>
+  <c0><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.1\ProcessorsExam1.1\main.asm</FILE><LINE>46</LINE></c0>
+  <c1><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.1\ProcessorsExam1.1\main.asm</FILE><LINE>51</LINE></c1>
+  <c2><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.1\ProcessorsExam1.1\main.asm</FILE><LINE>56</LINE></c2>
+  <c3><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.1\ProcessorsExam1.1\main.asm</FILE><LINE>61</LINE></c3>
+  <c4><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.1\ProcessorsExam1.1\main.asm</FILE><LINE>66</LINE></c4>
+  <c5><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.1\ProcessorsExam1.1\main.asm</FILE><LINE>71</LINE></c5>
+  <c6><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.1\ProcessorsExam1.1\main.asm</FILE><LINE>76</LINE></c6>
+  <c7><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.1\ProcessorsExam1.1\main.asm</FILE><LINE>80</LINE></c7>
+  <c8><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.1\ProcessorsExam1.1\main.asm</FILE><LINE>85</LINE></c8>
+  <c9><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.1\ProcessorsExam1.1\main.asm</FILE><LINE>89</LINE></c9>
+ </LABELS>
+</ASSEMBLER_INFO>

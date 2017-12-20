@@ -1,0 +1,58 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATmega169P"</DEVICE>
+ <WORKING_DIR>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m169pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\Debug\Lab8.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Lab8.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Lab8.map</FILE>
+  <FILE>Lab8.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <DataSet1><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>14</LINE></DataSet1>
+  <DataSet2><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>15</LINE></DataSet2>
+  <DataSet3><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>16</LINE></DataSet3>
+  <here><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>34</LINE></here>
+  <clear><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>36</LINE></clear>
+  <done><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>56</LINE></done>
+  <here1><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>62</LINE></here1>
+  <doneData1><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>70</LINE></doneData1>
+  <here2><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>79</LINE></here2>
+  <doneData2><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>88</LINE></doneData2>
+  <here3><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>99</LINE></here3>
+  <doneData3><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>108</LINE></doneData3>
+  <read><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>119</LINE></read>
+  <nextread><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>132</LINE></nextread>
+  <read2><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>134</LINE></read2>
+  <nextread2><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>145</LINE></nextread2>
+  <read3><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>147</LINE></read3>
+  <finish><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>158</LINE></finish>
+  <decidedtosub><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>167</LINE></decidedtosub>
+  <compareD1><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>188</LINE></compareD1>
+  <delay><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>229</LINE></delay>
+  <compareD2><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>196</LINE></compareD2>
+  <compareD3><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>205</LINE></compareD3>
+  <PrintO1><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>214</LINE></PrintO1>
+  <return1><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>193</LINE></return1>
+  <PrintO2><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>219</LINE></PrintO2>
+  <return2><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>201</LINE></return2>
+  <PrintO3><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>224</LINE></PrintO3>
+  <return3><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>210</LINE></return3>
+  <L1><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>231</LINE></L1>
+  <L2><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>233</LINE></L2>
+  <L3><FILE>C:\Users\shail\Documents\Atmel Studio\7.0\Lab8\Lab8\main.asm</FILE><LINE>235</LINE></L3>
+ </LABELS>
+</ASSEMBLER_INFO>

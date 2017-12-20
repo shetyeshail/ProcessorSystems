@@ -1,0 +1,165 @@
+
+LabFinal_Problem5_CTCTimer.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000000  00800100  00800100  0000014c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         000000f8  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .comment      00000030  00000000  00000000  0000014c  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  0000017c  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000028  00000000  00000000  000001bc  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   0000087f  00000000  00000000  000001e4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 000007d7  00000000  00000000  00000a63  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   0000023a  00000000  00000000  0000123a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000054  00000000  00000000  00001474  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    0000041f  00000000  00000000  000014c8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    00000076  00000000  00000000  000018e7  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000018  00000000  00000000  0000195d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 2e 00 	jmp	0x5c	; 0x5c <__ctors_end>
+   4:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+   8:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+   c:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+  10:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+  14:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+  18:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+  1c:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+  20:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+  24:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+  28:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+  2c:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+  30:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+  34:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+  38:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+  3c:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+  40:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+  44:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+  48:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+  4c:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+  50:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+  54:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+  58:	0c 94 38 00 	jmp	0x70	; 0x70 <__bad_interrupt>
+
+0000005c <__ctors_end>:
+  5c:	11 24       	eor	r1, r1
+  5e:	1f be       	out	0x3f, r1	; 63
+  60:	cf ef       	ldi	r28, 0xFF	; 255
+  62:	d4 e0       	ldi	r29, 0x04	; 4
+  64:	de bf       	out	0x3e, r29	; 62
+  66:	cd bf       	out	0x3d, r28	; 61
+  68:	0e 94 3a 00 	call	0x74	; 0x74 <main>
+  6c:	0c 94 7a 00 	jmp	0xf4	; 0xf4 <_exit>
+
+00000070 <__bad_interrupt>:
+  70:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+00000074 <main>:
+ * Author : shail
+ */ 
+
+#include <avr/io.h>
+int main(void)
+{
+  74:	cf 93       	push	r28
+  76:	df 93       	push	r29
+  78:	cd b7       	in	r28, 0x3d	; 61
+  7a:	de b7       	in	r29, 0x3e	; 62
+	DDRD = 1;			//set portd as output
+  7c:	8a e2       	ldi	r24, 0x2A	; 42
+  7e:	90 e0       	ldi	r25, 0x00	; 0
+  80:	21 e0       	ldi	r18, 0x01	; 1
+  82:	fc 01       	movw	r30, r24
+  84:	20 83       	st	Z, r18
+	while (1)
+	{
+		PORTD = (1<<0); //pin1 = high
+  86:	8b e2       	ldi	r24, 0x2B	; 43
+  88:	90 e0       	ldi	r25, 0x00	; 0
+  8a:	21 e0       	ldi	r18, 0x01	; 1
+  8c:	fc 01       	movw	r30, r24
+  8e:	20 83       	st	Z, r18
+		pulse();		//call delay
+  90:	0e 94 51 00 	call	0xa2	; 0xa2 <pulse>
+		PORTD = (0<<0); //pin1 = low
+  94:	8b e2       	ldi	r24, 0x2B	; 43
+  96:	90 e0       	ldi	r25, 0x00	; 0
+  98:	fc 01       	movw	r30, r24
+  9a:	10 82       	st	Z, r1
+		pulse();		//call delay
+  9c:	0e 94 51 00 	call	0xa2	; 0xa2 <pulse>
+	}
+  a0:	f2 cf       	rjmp	.-28     	; 0x86 <main+0x12>
+
+000000a2 <pulse>:
+}
+
+int pulse(){			//CTC mode
+  a2:	cf 93       	push	r28
+  a4:	df 93       	push	r29
+  a6:	cd b7       	in	r28, 0x3d	; 61
+  a8:	de b7       	in	r29, 0x3e	; 62
+	TCCR1B = (1<<CS10)|(1<<CS12)|(1<<WGM12);	//1024 prescaler
+  aa:	81 e8       	ldi	r24, 0x81	; 129
+  ac:	90 e0       	ldi	r25, 0x00	; 0
+  ae:	2d e0       	ldi	r18, 0x0D	; 13
+  b0:	fc 01       	movw	r30, r24
+  b2:	20 83       	st	Z, r18
+	TCNT1 = 0;			//start timer at 0
+  b4:	84 e8       	ldi	r24, 0x84	; 132
+  b6:	90 e0       	ldi	r25, 0x00	; 0
+  b8:	fc 01       	movw	r30, r24
+  ba:	11 82       	std	Z+1, r1	; 0x01
+  bc:	10 82       	st	Z, r1
+	OCR1B = 3907;		//(500k nanosec)/(1024 prescaler/8mhz)
+  be:	8a e8       	ldi	r24, 0x8A	; 138
+  c0:	90 e0       	ldi	r25, 0x00	; 0
+  c2:	23 e4       	ldi	r18, 0x43	; 67
+  c4:	3f e0       	ldi	r19, 0x0F	; 15
+  c6:	fc 01       	movw	r30, r24
+  c8:	31 83       	std	Z+1, r19	; 0x01
+  ca:	20 83       	st	Z, r18
+	while (TIFR1 == 0){}//loop until overflow flag is enabled
+  cc:	00 00       	nop
+  ce:	86 e3       	ldi	r24, 0x36	; 54
+  d0:	90 e0       	ldi	r25, 0x00	; 0
+  d2:	fc 01       	movw	r30, r24
+  d4:	80 81       	ld	r24, Z
+  d6:	88 23       	and	r24, r24
+  d8:	d1 f3       	breq	.-12     	; 0xce <pulse+0x2c>
+	TIFR1 = (1<<TOV1)|(1<<OCF1B);				//disable flag again
+  da:	86 e3       	ldi	r24, 0x36	; 54
+  dc:	90 e0       	ldi	r25, 0x00	; 0
+  de:	25 e0       	ldi	r18, 0x05	; 5
+  e0:	fc 01       	movw	r30, r24
+  e2:	20 83       	st	Z, r18
+	TCCR1B = 0;			//disable timer
+  e4:	81 e8       	ldi	r24, 0x81	; 129
+  e6:	90 e0       	ldi	r25, 0x00	; 0
+  e8:	fc 01       	movw	r30, r24
+  ea:	10 82       	st	Z, r1
+}
+  ec:	00 00       	nop
+  ee:	df 91       	pop	r29
+  f0:	cf 91       	pop	r28
+  f2:	08 95       	ret
+
+000000f4 <_exit>:
+  f4:	f8 94       	cli
+
+000000f6 <__stop_program>:
+  f6:	ff cf       	rjmp	.-2      	; 0xf6 <__stop_program>

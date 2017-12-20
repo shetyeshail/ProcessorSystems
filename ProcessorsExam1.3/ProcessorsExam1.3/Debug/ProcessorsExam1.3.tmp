@@ -1,0 +1,31 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATmega169P"</DEVICE>
+ <WORKING_DIR>c:\users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.3\ProcessorsExam1.3\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>c:\users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.3\ProcessorsExam1.3\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m169pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>c:\users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.3\ProcessorsExam1.3\Debug\ProcessorsExam1.3.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>ProcessorsExam1.3.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>ProcessorsExam1.3.map</FILE>
+  <FILE>ProcessorsExam1.3.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <place><FILE>c:\users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.3\ProcessorsExam1.3\main.asm</FILE><LINE>24</LINE></place>
+  <greaterthanorequal><FILE>c:\users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.3\ProcessorsExam1.3\main.asm</FILE><LINE>62</LINE></greaterthanorequal>
+  <lessthan><FILE>c:\users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.3\ProcessorsExam1.3\main.asm</FILE><LINE>65</LINE></lessthan>
+  <extrema><FILE>c:\users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.3\ProcessorsExam1.3\main.asm</FILE><LINE>53</LINE></extrema>
+  <loop><FILE>c:\users\shail\Documents\Atmel Studio\7.0\ProcessorsExam1.3\ProcessorsExam1.3\main.asm</FILE><LINE>54</LINE></loop>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,34 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATmega169P"</DEVICE>
+ <WORKING_DIR>c:\users\shail\Documents\Atmel Studio\7.0\LabFinal_Problem2\LabFinal_Problem2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>c:\users\shail\Documents\Atmel Studio\7.0\LabFinal_Problem2\LabFinal_Problem2\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m169pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>c:\users\shail\Documents\Atmel Studio\7.0\LabFinal_Problem2\LabFinal_Problem2\Debug\LabFinal_Problem2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>LabFinal_Problem2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>LabFinal_Problem2.map</FILE>
+  <FILE>LabFinal_Problem2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>c:\users\shail\Documents\Atmel Studio\7.0\LabFinal_Problem2\LabFinal_Problem2\main.asm</FILE><LINE>21</LINE></start>
+  <loop1><FILE>c:\users\shail\Documents\Atmel Studio\7.0\LabFinal_Problem2\LabFinal_Problem2\main.asm</FILE><LINE>24</LINE></loop1>
+  <DELAY_100MS><FILE>c:\users\shail\Documents\Atmel Studio\7.0\LabFinal_Problem2\LabFinal_Problem2\main.asm</FILE><LINE>44</LINE></DELAY_100MS>
+  <loop2><FILE>c:\users\shail\Documents\Atmel Studio\7.0\LabFinal_Problem2\LabFinal_Problem2\main.asm</FILE><LINE>30</LINE></loop2>
+  <loop3><FILE>c:\users\shail\Documents\Atmel Studio\7.0\LabFinal_Problem2\LabFinal_Problem2\main.asm</FILE><LINE>34</LINE></loop3>
+  <L1><FILE>c:\users\shail\Documents\Atmel Studio\7.0\LabFinal_Problem2\LabFinal_Problem2\main.asm</FILE><LINE>46</LINE></L1>
+  <L2><FILE>c:\users\shail\Documents\Atmel Studio\7.0\LabFinal_Problem2\LabFinal_Problem2\main.asm</FILE><LINE>47</LINE></L2>
+  <L3><FILE>c:\users\shail\Documents\Atmel Studio\7.0\LabFinal_Problem2\LabFinal_Problem2\main.asm</FILE><LINE>48</LINE></L3>
+ </LABELS>
+</ASSEMBLER_INFO>
